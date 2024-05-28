@@ -1,0 +1,198 @@
+{
+  "sections": {
+    "5812f57d-723a-45c0-90de-b3d4a54def6a": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/product_foam.png",
+        "desc": "Our natural men's shampoo help you not smell like garbage while cleaning plastic garbage out of landfills and the ocean.",
+        "button_label": "BUY NOW",
+        "link": "shopify:\/\/products\/pine-scented-shampoo"
+      }
+    },
+    "264a9855-a0f2-4a7f-bbcb-e78ab322cc68": {
+      "type": "section-3",
+      "blocks": {
+        "template--14792230436900__264a9855-a0f2-4a7f-bbcb-e78ab322cc68-1682681777c9a7551b-0": {
+          "type": "text",
+          "settings": {
+            "text": "Men's 3 in 1 Shampoo",
+            "text_style": "body"
+          }
+        },
+        "template--14792230436900__264a9855-a0f2-4a7f-bbcb-e78ab322cc68-1682681777c9a7551b-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h2"
+          }
+        },
+        "38ef73ac-a9f0-4274-89d0-0b2882b4349b": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "bed3fb26-acbf-428f-a0db-83454b0c5624": {
+          "type": "text",
+          "settings": {
+            "text": "Clean, aquatic, and invigorating. It's perfect for those who enjoy a fragrance that captures the essence of nature and the sea, providing a feeling of refreshment and vitality.",
+            "text_style": "subtitle"
+          }
+        },
+        "73f0eb7c-e0bd-4608-b767-52c64ecaa3fe": {
+          "type": "icon-and-txt",
+          "settings": {
+            "img_1": "shopify:\/\/shop_images\/1_6e744b28-5f92-41eb-9238-10d2bc021e09.png",
+            "img_1_heading": "SMELLS LIKE:",
+            "img_1_txt": "Aquatic",
+            "img_2": "shopify:\/\/shop_images\/2_e89e442e-4919-41e4-b370-c0d03cd3a0e6.png",
+            "img_2_heading": "TEXTURE:",
+            "img_2_txt": "Thick and Sudsy"
+          }
+        },
+        "5ce4ed20-4d21-4a4c-a5bb-2f09e08dbfb4": {
+          "type": "subscription",
+          "settings": {
+          }
+        },
+        "template--14792230436900__264a9855-a0f2-4a7f-bbcb-e78ab322cc68-1682681777c9a7551b-2": {
+          "type": "price",
+          "settings": {
+            "only_price": false
+          }
+        },
+        "template--14792230436900__264a9855-a0f2-4a7f-bbcb-e78ab322cc68-1682681777c9a7551b-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "button_text": "BUY NOW"
+          }
+        }
+      },
+      "block_order": [
+        "template--14792230436900__264a9855-a0f2-4a7f-bbcb-e78ab322cc68-1682681777c9a7551b-0",
+        "template--14792230436900__264a9855-a0f2-4a7f-bbcb-e78ab322cc68-1682681777c9a7551b-1",
+        "38ef73ac-a9f0-4274-89d0-0b2882b4349b",
+        "bed3fb26-acbf-428f-a0db-83454b0c5624",
+        "73f0eb7c-e0bd-4608-b767-52c64ecaa3fe",
+        "5ce4ed20-4d21-4a4c-a5bb-2f09e08dbfb4",
+        "template--14792230436900__264a9855-a0f2-4a7f-bbcb-e78ab322cc68-1682681777c9a7551b-2",
+        "template--14792230436900__264a9855-a0f2-4a7f-bbcb-e78ab322cc68-1682681777c9a7551b-5"
+      ],
+      "settings": {
+        "product": "pine-scented-shampoo",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "08a4e06f-f027-4ae3-a3fc-afbf503f6b06": {
+      "type": "section-2",
+      "blocks": {
+        "5c54179a-abf1-4ba7-80d3-52c1fa609fc0": {
+          "type": "row",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/hydrates_scalp_icon_4a380be1-0d1f-477c-9858-b26f3f38a891.png",
+            "block_text": "<p>No More dry flaky scalp, Head and Balls thick and moisturizing formula helps moisturize and enrich you hair with ingredients like shae 50.<\/p>"
+          }
+        },
+        "46213f5b-b071-4464-b9d6-bc56056b86d7": {
+          "type": "row",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/clean_ingredients.png",
+            "block_text": "<p>We only use naturally-derived, science-backed ingredinets in our products like Sesame Seed Extract, Bamboo Extract, Shea Butter, and more!<\/p>"
+          }
+        },
+        "fedf187a-2964-4bee-92f8-c5a402e47d68": {
+          "type": "row",
+          "settings": {
+            "block_image": "shopify:\/\/shop_images\/100_recycled_icon_83cca1c6-8f6a-4bbb-93c3-7ec1a60b7562.png",
+            "block_text": "<p>Our 100% recycled oil quart packaging and revenue pledge to TheOceanCleanup.com make us the eco-friendliest choice for your shower routine.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "5c54179a-abf1-4ba7-80d3-52c1fa609fc0",
+        "46213f5b-b071-4464-b9d6-bc56056b86d7",
+        "fedf187a-2964-4bee-92f8-c5a402e47d68"
+      ],
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/image_2.png"
+      }
+    },
+    "d8fb2244-c135-4389-bf75-ae781e9df2ab": {
+      "type": "section-4",
+      "blocks": {
+        "8b1044b9-463f-4373-bbc6-d59ec2f05aba": {
+          "type": "image",
+          "settings": {
+            "block_icon": "shopify:\/\/shop_images\/made_in_usa_icon_3e697872-cec3-40d4-8dce-884acb31b689.png"
+          }
+        },
+        "24af6d83-1d87-4f30-acad-d1d086c870ae": {
+          "type": "image",
+          "settings": {
+            "block_icon": "shopify:\/\/shop_images\/no_harsh_chemicals_icon_f8f79999-7d33-40a2-b306-96467efea200.png"
+          }
+        },
+        "8299c41a-7c91-4af3-aed6-e9111a7b198b": {
+          "type": "image",
+          "settings": {
+            "block_icon": "shopify:\/\/shop_images\/smells_amazing.png"
+          }
+        },
+        "6e8eb222-704a-4b38-8cb6-83c54e013462": {
+          "type": "image",
+          "settings": {
+            "block_icon": "shopify:\/\/shop_images\/improves_hair_texture_icon_3acaf10a-e125-49ac-86bd-6525744fb2d6.png"
+          }
+        }
+      },
+      "block_order": [
+        "8b1044b9-463f-4373-bbc6-d59ec2f05aba",
+        "24af6d83-1d87-4f30-acad-d1d086c870ae",
+        "8299c41a-7c91-4af3-aed6-e9111a7b198b",
+        "6e8eb222-704a-4b38-8cb6-83c54e013462"
+      ],
+      "settings": {
+        "heading": "COOL WATER",
+        "preHeading": "Head and Balls 3 in 1 Men's Shampoo",
+        "text": "<p>Made with natural, science-backed ingredients like Sesame Seed Extract, Bamboo Extract, Fenugreek Extract, and more! This shampoo is Paraben and Cruelty-free and was crafted with your skin in mind. Head and Balls is sudsy like all shampoos should be, it is great for moisturizing, cleaning, and washing you from the head to balls. It's about time you stopped using that generic, bargain-bin shampoo that you've been settling for all these years.<\/p>",
+        "size_badge": "32 oz bootle",
+        "bgColor": "#102344",
+        "cover_image": "shopify:\/\/shop_images\/video-cover.png",
+        "video_url": "https:\/\/vimeo.com\/857026240?share=copy",
+        "description": "Describe the video"
+      }
+    },
+    "a503afcf-a3aa-4b0d-8b1a-015457c01f0d": {
+      "type": "section-5",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_20.png",
+        "text": "\"I was using my Wife's Cherry Blossome scented shampoo, and It didn't sit right with me that my balls would smell like cherry blossoms. Head and Balls has made my life better.\"",
+        "author": "-Noah C, Founder and First Customer"
+      }
+    },
+    "3e2e8b6d-71e2-4caf-8005-500e10d683b6": {
+      "type": "section-6",
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/section-5-image.png",
+        "text": "<h2 class=\"color-blue\">WE STAND FOR<\/h2>\n<h3>PLASTIC RECYCLING<br>\n+ OCEAN CLEAN UP<\/h3>\n<h4>Head and Balls + The Ocean Cleanup<\/h4>\n<h5>We have partnered with The Ocean Cleanup to donate a dollar to help remove plastic out of the oceans for every bottle we sell.<\/h5>"
+      }
+    }
+  },
+  "order": [
+    "5812f57d-723a-45c0-90de-b3d4a54def6a",
+    "264a9855-a0f2-4a7f-bbcb-e78ab322cc68",
+    "08a4e06f-f027-4ae3-a3fc-afbf503f6b06",
+    "d8fb2244-c135-4389-bf75-ae781e9df2ab",
+    "a503afcf-a3aa-4b0d-8b1a-015457c01f0d",
+    "3e2e8b6d-71e2-4caf-8005-500e10d683b6"
+  ]
+}

@@ -1,0 +1,65 @@
+.section5 {
+    background: rgb(71,170,227);
+    background: linear-gradient(90deg, rgba(71,170,227,1) 0%, rgba(50,159,226,1) 100%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cite__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section5 .cite {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 110%;
+    color: #0e1935;
+    text-align: center;
+}
+
+.section5 .cite__author {
+    color: #fff;
+    font-weight: 300;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 749px) {
+    .cite__img {
+        width: 50%;
+    }
+
+    .cite__img img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .section5 {
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+    .cite__wrapper {
+        width: 65%;
+        flex-direction: row;
+        gap: 70px;
+    }
+
+    .section5 .cite {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+    
+    .section5 .cite__author {
+        margin-top: 4rem;
+    }
+}
+
+
+

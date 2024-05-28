@@ -1,0 +1,56 @@
+{{ 'section-5.css' | asset_url | stylesheet_tag }}
+
+<div id="Section5-{{ section.id }}" class="section5">
+  <div class="section5__content page-width">
+    <div class="cite__wrapper {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      {% if section.settings.image != blank %}
+        <div class="cite__img">
+          {{ section.settings.image | image_url: width: section.settings.image.width | image_tag: widths: '305, 610' }}
+        </div>
+        <div class="cite">
+          {% if section.settings.text %}
+            {{ section.settings.text }}
+          {% endif %}
+          {% if section.settings.author %}
+            <div class="cite__author">
+              {{ section.settings.author }}
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Section 5",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Cite Author Image"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Cite"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "author",
+      "label": "Cite Author"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Section 5"
+    }
+  ]
+}
+{% endschema %}

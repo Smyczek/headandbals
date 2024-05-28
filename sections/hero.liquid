@@ -1,0 +1,93 @@
+{{ 'section-hero.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  .hero__heading-wrapper {
+    background-image: url({{'top-water.jpg'|asset_url}});
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+{% endstyle %}
+
+<div id="Hero-{{ section.id }}" class="hero color-accent-1">
+  <div class="hero__heading-wrapper">
+    <div class="page-width">
+      <div class="hero__heading {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        <h1 class="h0">Clean</h1>
+        <h1 class="h0 hero__heading-right">
+          <span>Hair</span>
+          <span>Oceans</span>
+          <span>Balls</span>
+        </h1>
+      </div>
+    </div>
+  </div>
+  <div class="hero__content page-width">
+    <div class="hero__content-left {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+      {% if section.settings.desc != blank %}
+        <p>{{ section.settings.desc }}</p>
+      {% endif %}
+      {% if section.settings.link != blank %}
+        <a href="{{ section.settings.link }}" class="button"
+          ><span>{{ section.settings.button_label }}</span></a
+        >
+      {% endif %}
+    </div>
+    <div class="hero__image-wrapper">
+      <div class="hero__image">
+        {% if section.settings.image != blank %}
+          <img
+            src="{{ section.settings.image | image_url }}"
+            {% if section.settings.image.alt != blank %}
+              alt="{{ section.settings.image.alt | escape }}"
+            {% else %}
+              role="presentation"
+            {% endif %}
+            height="auto"
+            width="auto"
+            loading="lazy"
+          >
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Hero",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "textarea",
+      "id": "desc",
+      "label": "Text",
+      "default": "Here at Head and Balls, we like to give trash a second chance... and we're not just talking about country music! Our bottles may have started out as a quart of oil, but now they're filled with our amazin 3 in 1 shampoo that'll have you smelling like a million bucks (or at least enough to impress you mom). So go ahead, lather up and save the planet one recycled bottle at a time!"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "BUY NOW"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Button link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero"
+    }
+  ]
+}
+{% endschema %}

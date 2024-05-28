@@ -1,0 +1,47 @@
+{{ 'section-6.css' | asset_url | stylesheet_tag }}
+
+{% if section.settings.bg_image != blank %}
+  {% style %}
+    #Section6-{{ section.id }} {
+      background-image: url({{ section.settings.bg_image | image_url }});
+    }
+  {% endstyle %}
+{% endif %}
+
+<div id="Section6-{{ section.id }}" class="section6">
+  <div class="section6__content page-width">
+    {% if section.settings.text != blank %}
+      <div class="left__content {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+        {{ section.settings.text }}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Section 6",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "liquid",
+      "id": "text",
+      "label": "Left content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Section 6"
+    }
+  ]
+}
+{% endschema %}

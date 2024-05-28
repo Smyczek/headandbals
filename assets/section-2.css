@@ -1,0 +1,50 @@
+.section2 {
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    background-color: #f7f7f9;
+}
+
+.section2 .rows {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section2 .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #2a2a2a;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    .section2 .rows {
+        width: 55%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .section2 .row {
+        align-items: center;
+        flex-direction: row;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        gap: 60px;
+        text-align: left;
+    }
+}
+
+
+.section2 .row > div {
+    min-width: 220px;
+    text-align: center;
+}
+.section2 .row p {
+    font-size: 2rem;
+    line-height: 130%;
+}
